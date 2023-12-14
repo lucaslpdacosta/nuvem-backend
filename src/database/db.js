@@ -1,10 +1,10 @@
 const mysql = require('mysql2');
 
 const pool = mysql.createPool({
-  host: 'k8sproducao.mysql.database.azure.com',
+  host: 'k8sdevelop.mysql.database.azure.com',
   user: 'lucaslpdacosta',
   password: 'Uca#Rnp!2010',
-  database: 'crud_producao',
+  database: 'crud_develop',
   port: 3306,
   ssl: {
     rejectUnauthorized: false,
